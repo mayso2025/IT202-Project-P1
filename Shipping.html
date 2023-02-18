@@ -1,0 +1,90 @@
+<html> 
+    <head>
+        <title> Shipping Form </title>
+    </head>
+    <body> 
+        <h4> Package Information </h4>
+        <form action = "Shipping.php" method = "post"> 
+            <div> 
+                <label> First Name </label>
+                <input type ="text" name = "firstName_input"/>
+            </div>
+
+            <div> 
+                <label> Last Name </label>
+                <input type ="text" name = "lastName_input"/>
+            </div> 
+
+            <div> 
+                <label> Customer Address </label>
+                <input type ="text" name = "address_inputC"/>
+            </div> 
+
+            <div> 
+                <label> Customer City  </label>
+                <input type ="text" name = "city_input"/>
+            </div>
+        
+            <div> 
+                <label> Customer State </label>
+                <input type ="text" name = "state_input"/>
+            </div>
+
+            <div> 
+                <label> Customer ZIP </label>
+                <input type ="number" name = "zip_inputC" min="10000" max="99999"/>
+            </div>
+
+            <div>
+                <label> Shipping Date </label>
+                <input type ="date" name = "ship_date"/>
+            </div>
+
+
+            <div> 
+                <label> Order Number </label>
+                <input type ="number" name = "order_number"/>
+            </div>
+
+            <div> 
+                <label> Facility Address </label>
+                <input type ="text" name = "address_inputF"/>
+            </div>
+            
+
+            <div>
+                <label> Package Dimensions Length (Inches)</label>
+                <input type ="number" name = "dimensionsL" min="1" max="36"/>
+            </div>
+            
+            
+            <div>
+                <label> Package Dimensions Width (Inches)</label>
+                <input type ="number" name = "dimensionsW" min="1" max="36"/>
+            </div>
+            
+            <div> 
+                <label> Package Dimensions Height (Inches)</label>
+                <input type ="number" name = "dimensionsH" min="1" max="36"/>
+            </div>
+            
+            <div>
+                <label> Package Weight </label>
+                <input type ="number" name = "package_weight" min="1" max="150"/>
+            </div>
+            
+            <div>
+                <label> Facility Zip </label>
+                <input type ="number" name = "zip_inputF" min="10000" max="99999"/>
+            </div>
+
+            <div id="buttons">
+                <label>&nbsp;</label>
+                <input type="submit" value="Enter Values">
+                <br>
+        
+            
+
+        </form>
+    </body>
+</html>

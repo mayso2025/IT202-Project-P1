@@ -1,0 +1,18 @@
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    background-color: #3A2E39;
+    color: #1E555C;
+}
+ul{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #312F2F;
+    color: #312F2F;
+    border: 15px dotted black;
+}
+header{
+    background-color: #002626;
+    border: 15px solid aqua;
+}
+body{
+    border: 15px solid black;
+}
